@@ -118,3 +118,15 @@
 2023-05-21 19:51:31,134 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.4', state='RUNNING'
 2023-05-21 19:51:46,721 - uvicorn.error - INFO - connection closed
 2023-05-21 19:51:46,725 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(2b378d9c, ('172.18.0.1', 42692))
+2023-05-21 19:52:31,252 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.4', state='RUNNING'
+2023-05-21 19:53:11,465 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-05-21 19:53:11,467 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2023-05-21 19:53:11,468 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2023-05-21 19:53:11,469 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2023-05-21 19:53:11,470 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2023-05-21 19:53:11,471 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2023-05-21 19:53:11,473 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2023-05-21 19:53:11,490 - uvicorn.error - INFO - Shutting down
+2023-05-21 19:53:11,591 - uvicorn.error - INFO - Waiting for application shutdown.
+2023-05-21 19:53:11,593 - uvicorn.error - INFO - Application shutdown complete.
+2023-05-21 19:53:11,594 - uvicorn.error - INFO - Finished server process [1]
